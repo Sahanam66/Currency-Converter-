@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    background:linear-gradient(right,grey,black);
+} */
+.container{
+    margin: auto;
+    background: #000000;
+    min-height: 80vh;
+    max-width:80vw;
+}
+img{
+    width:30%;
+    height:30vh;
+    margin-top: 25%;
+    margin-left: 32%;
+    
+}
+#input{
+ margin-top:10%;
+ margin-left: 33%;
+ width: 30%;
+ height: 5vh;
+ border: 2px solid -webkit-linear-gradient(left, #000000, #0B0D40,#0A1044,#066C94) ;
+ border-radius:10px;
+}
+#Search{
+margin-top:-10%;
+ margin-left:65%;
+ width: 11%;
+ height: 5vh;
+ border: 2px solid -webkit-linear-gradient(left, #000000, #0B0D40,#0A1044,#066C94);
+ border-radius:10px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+html{
+    /* background: -webkit-linear-gradient(left, #14214c, #2ba1bc); */
+     background:-webkit-linear-gradient(bottom, grey,rgb(39, 38, 38)) ;
+}  
+#country{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    margin-top: 1%;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.temp{
+    border: 1px solid ;
+    width: 15%;
+    height: 17vh;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 10%;
+    float: left;
+}
+.humidity{
+    border: 1px solid ;
+    width: 15%;
+    height: 17vh;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 18%;
+    float: left;
+}
+.wind{
+    border: 1px solid ;
+    width: 15%;
+    height: 17vh;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-right:10% ;
+    float: right;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.u{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+
+}
+temp1{
+text-align: center;
+margin-bottom:-2%
+}
+humidity1{
+text-align: center;
+margin-bottom:-2%
+}
+wind1{
+ text-align: center;
+ margin-bottom:-2%
+}
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+   
+    <div>
+        <input type="text" id="input">
+        <button id="Search" onclick="search()">Search</button>
+    </div>
+    <img src="./images/rainy-day-8572948-6777724.png" alt="">
+    <div class="temp">
+        <!-- <h3>Temp</h3> -->
+        <h1 id="temp1"></h1>
+    </div>
+    <h1 style="color: white;" id="country"></h1>
+    <h2 id="date" style="color: white;"></h2>
+    <div id="background"> 
+        <div class="humidity">
+            <img src="./images/light-rain-7017243-5704807 (1).png" alt="">
+            <!-- <h3>Humidity</h3> -->
+            <h3>Rain:</h3>
+            <h2 id="humidity1"></h2>
+        </div>
+        <div class="wind">
+            <!-- <h3>Forecast</h3> -->
+            <img src="./images/windy-weather-3321949-2775225.png" alt="">
+            <h3>Wind speed:</h3>
+            <h2 id="wind1"></h2>
+        </div>
+
+    <script src="./weather.js"></script>
+</div>  
+</body>
+</html>
